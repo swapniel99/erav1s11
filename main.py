@@ -1,6 +1,6 @@
 from utils import *
 from utils.experiment import Experiment
-from models.resnet import ResNet18
+from models.resnetv2 import ResNet18
 from datasets import CIFAR10
 
 set_seed(42)
