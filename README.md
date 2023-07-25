@@ -9,8 +9,8 @@ Our [S11.ipynb](https://github.com/swapniel99/erav1s11/blob/main/S11.ipynb) note
 ```python
 from epoch.main import *  # Invite the gods
 cifar10.show_examples()  # Show few examples
-print_summary()  # Print model summary
-experiment = create_experiment(criterion='crossentropy', epochs=20, scheduler='one_cycle')  # Set up train and test
+print_summary(model)  # Print model summary
+experiment = create_experiment(model, cifar10, criterion='crossentropy', epochs=20, scheduler='one_cycle')  # Set up train and test
 experiment.execute()  # Perform training
 experiment.train.plot_stats()  # Plot train loss graphs
 experiment.test.plot_stats()  # Plot test loss graphs
