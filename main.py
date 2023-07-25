@@ -1,7 +1,7 @@
-from utils import *
-from utils.experiment import Experiment
-from models.resnet import ResNet18
-from datasets import CIFAR10
+from epoch.utils import *
+from epoch.utils.experiment import Experiment
+from epoch.models.resnet import ResNet18
+from epoch.datasets import CIFAR10
 
 set_seed(42)
 batch_size = 32
