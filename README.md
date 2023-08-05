@@ -1,7 +1,7 @@
 # ERA V1 Session 11
 
 ## Code Structure
-We are our main repository using our **Main Repo** [**Epoch**](https://github.com/swapniel99/epoch) to import all the necessary code.
+We are using our main repository **Main Repo** [**Epoch**](https://github.com/swapniel99/epoch) to import all the necessary code.
 Please refer to [this README](https://github.com/swapniel99/epoch/blob/main/README.md) for code structure. 
 
 Our [S11.ipynb](https://github.com/swapniel99/erav1s11/blob/main/S11.ipynb) notebook ONLY contains the following lines of code:
